@@ -494,8 +494,7 @@
 <p>Методы:</p>
 <ul>
 <li>get - получить список водителей</li>
-<li>post - создать водителя (name, exp_start)
-<img alt="" src="../1.png" /></li>
+<li>post - создать водителя (name, exp_start)</li>
 </ul>
 <h2 id="driversid"><code>/drivers/:id/</code></h2>
 <p>Методы:</p>
@@ -503,15 +502,13 @@
 <li>get - получить водителя</li>
 <li>put - изменить водителя (name, exp_start)</li>
 <li>patch - изменить водителя (name, exp_start) - опционально</li>
-<li>delete - удалить водителя
-<img alt="" src="../2.png" /></li>
+<li>delete - удалить водителя</li>
 </ul>
 <h2 id="motor-depots"><code>/motor-depots/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить список автобаз</li>
-<li>post - создать автобазу (name, address)
-<img alt="" src="../3.png" /></li>
+<li>post - создать автобазу (name, address)</li>
 </ul>
 <h2 id="motor-depotsid"><code>/motor-depots/:id/</code></h2>
 <p>Методы:</p>
@@ -519,15 +516,13 @@
 <li>get - получить автобазу</li>
 <li>put - изменить автобазу (name, address)</li>
 <li>patch - изменить автобазу (name, address) - опционально</li>
-<li>delete - удалить автобазу
-<img alt="" src="../4.png" /></li>
+<li>delete - удалить автобазу</li>
 </ul>
 <h2 id="garages"><code>/garages/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить список гаражей</li>
-<li>post - создать гараж (address, motor_depot_id)
-<img alt="" src="../5.png" /></li>
+<li>post - создать гараж (address, motor_depot_id)</li>
 </ul>
 <h2 id="garagesid"><code>/garages/:id/</code></h2>
 <p>Методы:</p>
@@ -535,15 +530,13 @@
 <li>get - получить гараж</li>
 <li>put - изменить гараж (address, motor_depot_id)</li>
 <li>patch - изменить гараж (address, motor_depot_id) - опционально</li>
-<li>delete - удалить гараж
-<img alt="" src="../6.png" /></li>
+<li>delete - удалить гараж</li>
 </ul>
 <h2 id="cars"><code>/cars/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить список машин</li>
-<li>post - создать машину (car_model, reg_number, garage_id, refuels)
-<img alt="" src="../7.png" /></li>
+<li>post - создать машину (car_model, reg_number, garage_id, refuels)</li>
 </ul>
 <h2 id="carsid"><code>/cars/:id/</code></h2>
 <p>Методы:</p>
@@ -551,15 +544,13 @@
 <li>get - получить машину</li>
 <li>put - изменить машину (car_model, reg_number, garage_id, refuels)</li>
 <li>patch - изменить машину (car_model, reg_number, garage_id, refuels) - опционально</li>
-<li>delete - удалить машину
-<img alt="" src="../8.png" /></li>
+<li>delete - удалить машину</li>
 </ul>
 <h2 id="fuels"><code>/fuels/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить список топлива</li>
-<li>post - создать топливо (fuel_name, liter)
-<img alt="" src="../9.png" /></li>
+<li>post - создать топливо (fuel_name, liter)</li>
 </ul>
 <h2 id="fuelsid"><code>/fuels/:id/</code></h2>
 <p>Методы:</p>
@@ -567,38 +558,33 @@
 <li>get - получить топливо</li>
 <li>put - изменить топливо (fuel_name, liter)</li>
 <li>patch - изменить топливо (fuel_name, liter) - опционально</li>
-<li>delete - удалить топливо
-<img alt="" src="../10.png" /></li>
+<li>delete - удалить топливо</li>
 </ul>
 <h2 id="waybills"><code>/waybills/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить список поездок</li>
-<li>post - создать поездку (id_car, id_driver, trip_date, point_of_loading, point_of_unloading, mileage_total, mileage_cargo, consignor, consignee, order_time)
-<img alt="" src="../11.png" /></li>
+<li>post - создать поездку (id_car, id_driver, trip_date, point_of_loading, point_of_unloading, mileage_total, mileage_cargo, consignor, consignee, order_time)</li>
 </ul>
 <h2 id="waybillsid"><code>/waybills/:id/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить поездку</li>
 <li>put - изменить поездку (id_car, id_driver, trip_date, point_of_loading, point_of_unloading, mileage_total, mileage_cargo, consignor, consignee, order_time)</li>
-<li>delete - удалить поездку
-<img alt="" src="../12.png" /></li>
+<li>delete - удалить поездку</li>
 </ul>
 <h2 id="refuels"><code>/refuels/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить список заправок</li>
-<li>post - создать заправку (car_id, id_fuel, liters)
-<img alt="" src="../13.png" /></li>
+<li>post - создать заправку (car_id, id_fuel, liters)</li>
 </ul>
 <h2 id="refuelsid"><code>/refuels/:id/</code></h2>
 <p>Методы:</p>
 <ul>
 <li>get - получить заправку</li>
 <li>put - изменить заправку (car_id, id_fuel, liters)</li>
-<li>delete - удалить заправку
-<img alt="" src="../14.png" /></li>
+<li>delete - удалить заправку</li>
 </ul>
                 
               
